@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 html
   head
-    title Bujinkan
+    /title= "#{yield(:title)} | #{t('views.bujinkan')}"
+    title= "#{yield(:title)}"
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': true
     = csrf_meta_tags
   body
