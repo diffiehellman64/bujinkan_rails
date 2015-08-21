@@ -7,9 +7,11 @@ html
     = csrf_meta_tags
   body
     #page
+      = link_to 'Home', root_path
+      = ' | '
       - if user_signed_in?
-        = current_user.username
         = link_to 'Sign out', destroy_user_session_path, method: :delete 
+        = " | #{current_user.username}"
       - else
         = link_to 'Sign in', new_user_session_path 
 
