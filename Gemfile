@@ -10,6 +10,11 @@ gem 'simple_form'
 gem 'bootstrap-sass'
 # This gem provides Ruby and Ruby on Rails integration with this JavaScript tool.
 gem "autoprefixer-rails"
+# Подсистема управления доступом пользователей и регистрации
+gem 'devise'
+gem 'cancancan'
+gem 'rolify'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
 # Use sqlite3 as the database for Active Record

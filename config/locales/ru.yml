@@ -21,5 +21,6 @@
 
 ru:
   views:
+    main_page: 'Главная страница'
     home: 'Главная'
     bujinkan: 'Будзинкан'
